@@ -1,0 +1,35 @@
+{
+  "description": "ATX Defense Chrome",
+  "docker_registry": "ocr.cmmc.space/docker-local",
+  "image_src": "chrome.png",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Browser"
+  ],
+  "friendly_name": "Chrome (ATX Defense)",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.15.x",
+      "image": "kasmweb/chrome:1.15.0",
+      "uncompressed_size_mb": 3010,
+      "available_tags": [
+        "develop",
+        "1.15.0"
+      ]
+    }
+  ]
+}
