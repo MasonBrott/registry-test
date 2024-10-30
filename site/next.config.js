@@ -10,7 +10,7 @@ const nextConfig = {
   },
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/registry-test/1.1',
+  basePath: '/registry-test/1.0',
   trailingSlash: true,
   images: {
     unoptimized: true,
