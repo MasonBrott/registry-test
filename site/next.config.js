@@ -2,15 +2,15 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    name: 'Robrotto Registry',
+    description: 'Test run of registry setup.',
+    icon: 'https://avatarfiles.alphacoders.com/280/280560.png',
+    listUrl: 'https://masonbrott.github.io/registry-test/',
+    contactUrl: 'https://github.com/masonbrott/registry-test/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/kasm-registry/1.0',
+  basePath: '/registry-test/1.1',
   trailingSlash: true,
   images: {
     unoptimized: true,
