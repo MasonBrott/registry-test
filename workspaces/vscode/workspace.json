@@ -1,12 +1,19 @@
 {
+  "friendly_name": "Visual Studio Code",
+  "image_src": "blob:https://masonbrott.github.io/6a8b1c34-d51a-499f-b027-e00e9fff3826",
   "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
-  "docker_registry": "https://index.docker.io/v1/",
   "name": "kasmweb/vs-code:develop",
-  "image_src": "vs-code.png",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
   "categories": [
     "Development"
   ],
-  "friendly_name": "Visual Studio Code",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
   "architecture": [
     "amd64",
     "arm64"
